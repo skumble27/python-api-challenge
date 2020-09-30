@@ -50,6 +50,38 @@ As seen with the humidity factor in relation to the latitudes, the same trend is
 
 
 
+**Figure 4: Latitude vs Wind Speed**
+
+![Lat vs Wind Speed](https://raw.githubusercontent.com/skumble27/python-api-challenge/master/Images/Latitude_vs_WindSpeed.png)
+
+
+
+
+
+#### Comparing Climates between hemispheres
+
+***Northern Hemisphere - Temperature (F) vs. Latitude***
+
+![NH Temp vs Lat](https://raw.githubusercontent.com/skumble27/python-api-challenge/master/Images/NH_Latitude_vs_Humidity.png)
+
+
+
+
+
+***Southern Hemisphere - Temperature (F) vs. Latitude***
+
+***Northern Hemisphere - Humidity (%) vs. Latitude***
+
+***Southern Hemisphere - Humidity (%) vs. Latitude***
+
+***Northern Hemisphere - Cloudiness (%) vs. Latitude***
+
+***Southern Hemisphere - Cloudiness (%) vs. Latitude***
+
+***Northern Hemisphere - Wind Speed (mph) vs. Latitude***
+
+***Southern Hemisphere - Wind Speed (mph) vs. Latitude***
+
 
 
 
