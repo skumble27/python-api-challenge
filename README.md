@@ -24,11 +24,15 @@ Once the lists were generated, several data visualisations were undertaken and h
 
 ### Data Visualisation
 
+### WeathyPy
+
+
+
 ##### Latitude vs Temperature
 
-<img src="https://raw.githubusercontent.com/skumble27/python-api-challenge/master/Images/Latitude_vs_Temperature.png" alt="Latitude vs Temperature"  />
+![Lat vs Temp](https://raw.githubusercontent.com/skumble27/python-api-challenge/master/Images/Latitude_vs_Temperature.png)
 
-**Figure 1: Latitude vs Longitude**
+**Figure 1: Latitude vs Temperature**
 
 As seen in Figure 1, as the coordinates approach the latitude of zero, the maximum temperatures begin to increase, which in turn, supports the previous hypothesis that closer proximity to the equator results in high daily temperatures. 
 
@@ -50,9 +54,17 @@ As seen with the humidity factor in relation to the latitudes, the same trend is
 
 
 
+![Lat vs Wind Speed](https://raw.githubusercontent.com/skumble27/python-api-challenge/master/Images/Latitude_vs_WindSpeed.png)
+
+
+
 **Figure 4: Latitude vs Wind Speed**
 
-![Lat vs Wind Speed](https://raw.githubusercontent.com/skumble27/python-api-challenge/master/Images/Latitude_vs_WindSpeed.png)
+The correlation between wind speed and latitude appears to be generally ubiquitous across the different coordinates possibly indicating that wind speeds are not confined to specific geographical locations. 
+
+
+
+
 
 
 
@@ -62,7 +74,7 @@ As seen with the humidity factor in relation to the latitudes, the same trend is
 
 ***Northern Hemisphere - Temperature (F) vs. Latitude***
 
-![NH Temp vs Lat](https://raw.githubusercontent.com/skumble27/python-api-challenge/master/Images/NH_Latitude_vs_Humidity.png)
+![NH Temp vs Lat](https://raw.githubusercontent.com/skumble27/python-api-challenge/master/Images/NH_Latitude_vs_Max_Temp.png)
 
 
 
@@ -70,17 +82,31 @@ As seen with the humidity factor in relation to the latitudes, the same trend is
 
 ***Southern Hemisphere - Temperature (F) vs. Latitude***
 
+![SH Temp vs Lat](https://raw.githubusercontent.com/skumble27/python-api-challenge/master/Images/sh_Latitude_vs_Max_Temp.png)
+
 ***Northern Hemisphere - Humidity (%) vs. Latitude***
+
+![NH Humidity](https://raw.githubusercontent.com/skumble27/python-api-challenge/master/Images/NH_Latitude_vs_Humidity.png)
 
 ***Southern Hemisphere - Humidity (%) vs. Latitude***
 
+![SH Humidity](https://raw.githubusercontent.com/skumble27/python-api-challenge/master/Images/sh_Latitude_vs_Humidity.png)
+
 ***Northern Hemisphere - Cloudiness (%) vs. Latitude***
+
+![Nh Cloudiness](https://raw.githubusercontent.com/skumble27/python-api-challenge/master/Images/NH_Latitude_vs_cloudiness.png)
 
 ***Southern Hemisphere - Cloudiness (%) vs. Latitude***
 
+![SH Cloudiness](https://raw.githubusercontent.com/skumble27/python-api-challenge/master/Images/sh_Latitude_vs_cloudiness.png)
+
 ***Northern Hemisphere - Wind Speed (mph) vs. Latitude***
 
+![WindSpeed](https://raw.githubusercontent.com/skumble27/python-api-challenge/master/Images/NH_Latitude_vs_windspeed.png)
+
 ***Southern Hemisphere - Wind Speed (mph) vs. Latitude***
+
+![SH Wind Speed](https://raw.githubusercontent.com/skumble27/python-api-challenge/master/Images/sh_Latitude_vs_windspeed.png)
 
 
 
