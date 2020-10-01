@@ -64,17 +64,19 @@ The correlation between wind speed and latitude appears to be generally ubiquito
 
 
 
-
-
-
-
-
-
 #### Comparing Climates between hemispheres
 
 ***Northern Hemisphere - Temperature (F) vs. Latitude***
 
 ![NH Temp vs Lat](https://raw.githubusercontent.com/skumble27/python-api-challenge/master/Images/NH_Latitude_vs_Max_Temp.png)
+
+***The r-sqaured value is 0.7670***
+
+
+
+
+
+
 
 
 
