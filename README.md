@@ -24,7 +24,7 @@ Once the lists were generated, several data visualisations were undertaken and h
 
 ### Data Summary
 
-From the analyses of the weather patterns across over 500 randomly selected cities, it appears that there is indeed a strong correlation between proximity to the equator and an increase in daily maximum temperature, however this correlation is not evident when analysing other factors such as cloud cover, wind speed and humidity (Table 1). The linear regression analyses that were undertaken to further assess correlations between wind speed, humidity and cloud cover within the northern hemisphere indicate a weak correlation suggesting that the three weather factors can occur across different geopraphical locations as opposed to daily maximum temperatures. 
+From the analyses of the weather patterns across over 500 randomly selected cities, it appears that there is indeed a strong correlation between proximity to the equator and an increase in daily maximum temperature, however this correlation is not evident when analysing other factors such as cloud cover, wind speed and humidity (Table 1). The linear regression analyses that were undertaken to further assess correlations between wind speed, humidity and cloud cover within the northern hemisphere indicate a weak correlation suggesting that the three weather factors can occur across different geographical locations as opposed to daily maximum temperatures. 
 
 
 
@@ -109,25 +109,13 @@ From the analyses of the weather patterns across over 500 randomly selected citi
 
 ![SH Cloudiness](https://raw.githubusercontent.com/skumble27/python-api-challenge/master/Images/sh_Latitude_vs_cloudiness.png)
 
-The **r-sqaured value is 0.002**, which as seen with the northern hemisphere, has quite a weak correlation to proximity to the equator indicating that high cloud cover can be found across various regions.
-
-
-
 ***Northern Hemisphere - Wind Speed (mph) vs. Latitude***
 
 ![WindSpeed](https://raw.githubusercontent.com/skumble27/python-api-challenge/master/Images/NH_Latitude_vs_windspeed.png)
 
-The **r-sqaured value is 0.01** 
+
 
 ***Southern Hemisphere - Wind Speed (mph) vs. Latitude***
 
 ![SH Wind Speed](https://raw.githubusercontent.com/skumble27/python-api-challenge/master/Images/sh_Latitude_vs_windspeed.png)
-
-
-
-
-
-
-
-
 
