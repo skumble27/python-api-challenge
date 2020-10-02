@@ -22,6 +22,29 @@ Once the lists were generated, several data visualisations were undertaken and h
 
 
 
+### Data Summary
+
+From the analyses of the weather patterns across over 500 randomly selected cities, it appears that there is indeed a strong correlation between proximity to the equator and an increase in daily maximum temperature, however this correlation is not evident when analysing other factors such as cloud cover, wind speed and humidity (Table 1). The linear regression analyses that were undertaken to further assess correlations between wind speed, humidity and cloud cover within the northern hemisphere indicate a weak correlation suggesting that the three weather factors can occur across different geopraphical locations as opposed to daily maximum temperatures. 
+
+
+
+**Table 1: Climate comparisons across different regions**
+
+| Regions                                             | r-squared value | Correlation |
+| --------------------------------------------------- | --------------- | ----------- |
+| Northern Hemisphere - Temperature (F) vs. Latitude  | 0.757           | strong      |
+| Southern Hemisphere - Temperature (F) vs. Latitude  | 0.497           | modest      |
+| Northern Hemisphere - Humidity (%) vs. Latitude     | 0.028           | weak        |
+| Southern Hemisphere - Humidity (%) vs. Latitude     | 0.012           | weak        |
+| Northern Hemisphere - Cloudiness (%) vs. Latitude   | 0.023           | weak        |
+| Southern Hemisphere - Cloudiness (%) vs. Latitude   | 0.002           | weak        |
+| Northern Hemisphere - Wind Speed (mph) vs. Latitude | 0.010           | weak        |
+| Southern Hemisphere - Wind Speed (mph) vs. Latitude | 0.027           | weak        |
+
+
+
+
+
 ### Data Visualisation
 
 ### WeathyPy
@@ -34,23 +57,17 @@ Once the lists were generated, several data visualisations were undertaken and h
 
 **Figure 1: Latitude vs Temperature**
 
-As seen in Figure 1, as the coordinates approach the latitude of zero, the maximum temperatures begin to increase, which in turn, supports the previous hypothesis that closer proximity to the equator results in high daily temperatures. 
-
 
 
 ![Latitude vs Humidity](https://raw.githubusercontent.com/skumble27/python-api-challenge/master/Images/Latitude_vs_Humidity.png)
 
 **Figure 2: Latitude vs Humidity**
 
-Although the data from Figure 1 indicates a correlation between latitude and temperatures, the humidity factor, on the other hand, appears to have a weak correlation with the latitude coordinates, suggesting that high humidity can occur through various regions on the planet. 
-
 
 
 ![Latitude vs Cloudiness](https://raw.githubusercontent.com/skumble27/python-api-challenge/master/Images/Latitude_vs_Cloudiness.png)
 
 **Figure 3: Latitude vs Cloudiness.**
-
-As seen with the humidity factor in relation to the latitudes, the same trend is apparent in determining if there is a correlation between latitudes and cloudiness. Indeed, upon visualisation of the data in Figure 3, it can be deduced that there is potentially a weak correlation between cloud cover and the coordinates of different regions suggesting that cloud cover is quite ubiquitous within the same latitude, for instance, at latitude of -20, the cloud cover varies significantly. 
 
 
 
@@ -60,8 +77,6 @@ As seen with the humidity factor in relation to the latitudes, the same trend is
 
 **Figure 4: Latitude vs Wind Speed**
 
-The correlation between wind speed and latitude appears to be generally ubiquitous across the different coordinates possibly indicating that wind speeds are not confined to specific geographical locations. 
-
 
 
 #### Comparing Climates between hemispheres
@@ -70,15 +85,9 @@ The correlation between wind speed and latitude appears to be generally ubiquito
 
 ![NH Temp vs Lat](https://raw.githubusercontent.com/skumble27/python-api-challenge/master/Images/NH_Latitude_vs_Max_Temp.png)
 
-The **r-squaured value is 0.757** that suggest that there is a reasonably strong correlation between latitude and daily maximum temperature. 
-
-
-
 ***Southern Hemisphere - Temperature (F) vs. Latitude***
 
 ![SH Temp vs Lat](https://raw.githubusercontent.com/skumble27/python-api-challenge/master/Images/sh_Latitude_vs_Max_Temp.png)
-
-The **r-sqaured value is 0.497** which indicates that there is a modest correlation between latitude and daily maximum temperature, however this correlation does not appear to be as strong as seen in the latitudes of the northern hemisphere. 
 
 
 
@@ -86,23 +95,13 @@ The **r-sqaured value is 0.497** which indicates that there is a modest correlat
 
 ![NH Humidity](https://raw.githubusercontent.com/skumble27/python-api-challenge/master/Images/NH_Latitude_vs_Humidity.png)
 
-The **r-sqaured value is 0.0286** suggesting that there is a very weak correlation between latitudes and humidity indicating that high humidity can occur throughout various geographical locations. 
-
- 
-
 ***Southern Hemisphere - Humidity (%) vs. Latitude***
 
 ![SH Humidity](https://raw.githubusercontent.com/skumble27/python-api-challenge/master/Images/sh_Latitude_vs_Humidity.png)
 
-As with the northern hemisphere, the correlation between humidity and latitude are weak with an **r-sqaured value of 0.0123**
-
-
-
 ***Northern Hemisphere - Cloudiness (%) vs. Latitude***
 
 ![Nh Cloudiness](https://raw.githubusercontent.com/skumble27/python-api-challenge/master/Images/NH_Latitude_vs_cloudiness.png)
-
-The **r-sqaured value is 0.023** which suggests that there is quite a weak correlation between latitudes and cloud cover, as the later can be relatively high across various regions on the planet. 
 
 
 
