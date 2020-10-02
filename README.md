@@ -70,15 +70,7 @@ The correlation between wind speed and latitude appears to be generally ubiquito
 
 ![NH Temp vs Lat](https://raw.githubusercontent.com/skumble27/python-api-challenge/master/Images/NH_Latitude_vs_Max_Temp.png)
 
-***The r-sqaured value is 0.7670***
-
-
-
-
-
-
-
-
+The **r-squaured value is 0.757** that suggest that there is a reasonably strong correlation between latitude and daily maximum temperature. 
 
 
 
@@ -86,25 +78,47 @@ The correlation between wind speed and latitude appears to be generally ubiquito
 
 ![SH Temp vs Lat](https://raw.githubusercontent.com/skumble27/python-api-challenge/master/Images/sh_Latitude_vs_Max_Temp.png)
 
+The **r-sqaured value is 0.497** which indicates that there is a modest correlation between latitude and daily maximum temperature, however this correlation does not appear to be as strong as seen in the latitudes of the northern hemisphere. 
+
+
+
 ***Northern Hemisphere - Humidity (%) vs. Latitude***
 
 ![NH Humidity](https://raw.githubusercontent.com/skumble27/python-api-challenge/master/Images/NH_Latitude_vs_Humidity.png)
+
+The **r-sqaured value is 0.0286** suggesting that there is a very weak correlation between latitudes and humidity indicating that high humidity can occur throughout various geographical locations. 
+
+ 
 
 ***Southern Hemisphere - Humidity (%) vs. Latitude***
 
 ![SH Humidity](https://raw.githubusercontent.com/skumble27/python-api-challenge/master/Images/sh_Latitude_vs_Humidity.png)
 
+As with the northern hemisphere, the correlation between humidity and latitude are weak with an **r-sqaured value of 0.0123**
+
+
+
 ***Northern Hemisphere - Cloudiness (%) vs. Latitude***
 
 ![Nh Cloudiness](https://raw.githubusercontent.com/skumble27/python-api-challenge/master/Images/NH_Latitude_vs_cloudiness.png)
+
+The **r-sqaured value is 0.023** which suggests that there is quite a weak correlation between latitudes and cloud cover, as the later can be relatively high across various regions on the planet. 
+
+
 
 ***Southern Hemisphere - Cloudiness (%) vs. Latitude***
 
 ![SH Cloudiness](https://raw.githubusercontent.com/skumble27/python-api-challenge/master/Images/sh_Latitude_vs_cloudiness.png)
 
+The **r-sqaured value is 0.002**, which as seen with the northern hemisphere, has quite a weak correlation to proximity to the equator indicating that high cloud cover can be found across various regions.
+
+
+
 ***Northern Hemisphere - Wind Speed (mph) vs. Latitude***
 
 ![WindSpeed](https://raw.githubusercontent.com/skumble27/python-api-challenge/master/Images/NH_Latitude_vs_windspeed.png)
+
+The **r-sqaured value is 0.01** 
 
 ***Southern Hemisphere - Wind Speed (mph) vs. Latitude***
 
