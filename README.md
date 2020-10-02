@@ -34,14 +34,14 @@ From the analyses of the weather patterns across over 500 randomly selected citi
 
 | Regions                                             | r-squared value | Correlation |
 | --------------------------------------------------- | --------------- | ----------- |
-| Northern Hemisphere - Temperature (F) vs. Latitude  | 0.757           | strong      |
-| Southern Hemisphere - Temperature (F) vs. Latitude  | 0.497           | modest      |
-| Northern Hemisphere - Humidity (%) vs. Latitude     | 0.028           | weak        |
-| Southern Hemisphere - Humidity (%) vs. Latitude     | 0.012           | weak        |
-| Northern Hemisphere - Cloudiness (%) vs. Latitude   | 0.023           | weak        |
-| Southern Hemisphere - Cloudiness (%) vs. Latitude   | 0.002           | weak        |
-| Northern Hemisphere - Wind Speed (mph) vs. Latitude | 0.010           | weak        |
-| Southern Hemisphere - Wind Speed (mph) vs. Latitude | 0.027           | weak        |
+| Northern Hemisphere - Temperature (F) vs. Latitude  | 0.729           | strong      |
+| Southern Hemisphere - Temperature (F) vs. Latitude  | 0.407           | modest      |
+| Northern Hemisphere - Humidity (%) vs. Latitude     | 0.024           | weak        |
+| Southern Hemisphere - Humidity (%) vs. Latitude     | 0.035           | weak        |
+| Northern Hemisphere - Cloudiness (%) vs. Latitude   | 0.012           | weak        |
+| Southern Hemisphere - Cloudiness (%) vs. Latitude   | 0.014           | weak        |
+| Northern Hemisphere - Wind Speed (mph) vs. Latitude | 0.041           | weak        |
+| Southern Hemisphere - Wind Speed (mph) vs. Latitude | 0.120           | weak        |
 
 
 
@@ -118,4 +118,14 @@ From the analyses of the weather patterns across over 500 randomly selected citi
 ***Southern Hemisphere - Wind Speed (mph) vs. Latitude***
 
 ![SH Wind Speed](https://raw.githubusercontent.com/skumble27/python-api-challenge/master/Images/sh_Latitude_vs_windspeed.png)
+
+
+
+## VacationPy
+
+Based on the cities that were randomely selected in the previous task, a humidity map was generated using the Gmaps module and plotted directly onto the coordinates as shown in the image below:
+
+![Humidity Heatmap](https://raw.githubusercontent.com/skumble27/python-api-challenge/master/Images/Humidity_heat_map.png)
+
+The ideal vacation is predicated on having weather conditions that are highly conducive to an enjoyable holiday and therefore, regions with an ideal temperature range between 20 to 30 degrees C, along with 
 
