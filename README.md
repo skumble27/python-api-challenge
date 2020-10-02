@@ -127,5 +127,7 @@ Based on the cities that were randomely selected in the previous task, a humidit
 
 ![Humidity Heatmap](https://raw.githubusercontent.com/skumble27/python-api-challenge/master/Images/Humidity_heat_map.png)
 
-The ideal vacation is predicated on having weather conditions that are highly conducive to an enjoyable holiday and therefore, regions with an ideal temperature range between 20 to 30 degrees C, along with 
+The ideal vacation is predicated on having weather conditions that are highly conducive to an enjoyable holiday and therefore, regions with an ideal temperature range between 20 to 30 degrees C, along with zero cloudiness and a wind speed of less than 10 miles per hour. Based on these parameters, the ideal hotels have been pinned onto the map below:
+
+![ideal hotels](https://raw.githubusercontent.com/skumble27/python-api-challenge/master/Images/Best_hotel_locaions_on_heat_map.png)
 
