@@ -24,6 +24,8 @@ Once the lists were generated, several data visualisations were undertaken and h
 
 ### Data Summary
 
+#### WeatherPy
+
 From the analyses of the weather patterns across over 500 randomly selected cities, it appears that there is indeed a strong correlation between proximity to the equator and an increase in daily maximum temperature, however this correlation is not evident when analysing other factors such as cloud cover, wind speed and humidity (Table 1). The linear regression analyses that were undertaken to further assess correlations between wind speed, humidity and cloud cover within the northern hemisphere indicate a weak correlation suggesting that the three weather factors can occur across different geographical locations as opposed to daily maximum temperatures. 
 
 
@@ -46,8 +48,6 @@ From the analyses of the weather patterns across over 500 randomly selected citi
 
 
 ### Data Visualisation
-
-### WeathyPy
 
 
 
